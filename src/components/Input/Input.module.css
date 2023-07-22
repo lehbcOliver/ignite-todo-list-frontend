@@ -1,0 +1,89 @@
+.container {
+  width: 46rem;
+  margin: -2rem auto;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.6875rem;
+
+}
+
+.input input {
+  width: 39.875rem;
+  height: 3.375rem;
+  border-radius: 8px;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: none;
+  padding-left: 1rem;
+  outline: none;
+}
+
+.input input:focus {
+  color: var(--gray-100);
+  outline: 1px solid var(--purple);
+}
+
+.input button {
+  width: 5.625rem;
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  border-radius: 8px;
+  border: none;
+}
+
+.input button:hover {
+  background: var(--blue);
+}
+
+.input button svg {
+  margin-left: 0.5rem;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info div {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.info .create {
+  color: var(--blue);
+}
+
+.info .concluded {
+  color: var(--purple);
+
+}
+
+.info span {
+  width: 1.5rem;
+  height: 1.1875rem;
+  background: var(--gray-400);
+  border-radius: 50%;
+  padding: 2px 8px;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info .concluded+span {
+  width: 3.25rem;
+  display: flex;
+  font-size: 0.55rem;
+  border-radius: 8px;
+}
